@@ -6,7 +6,7 @@ https://hub.docker.com/r/toteabe/md-to-html
 
 Run: 
 
-docker run -v "$(pwd)/markdown:/markdown-data" toteabe/md-to-html
+docker run --rm -v "$(pwd)/markdown:/markdown-data" toteabe/md-to-html:2.0
 
 Output html: 
 
