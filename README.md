@@ -1,4 +1,4 @@
-**Docker image that uses pandoc to convert md files to html utilizando la template de pandoc-goodies (https://github.com/tajmone/pandoc-goodies:)**
+**Docker image that uses pandoc to convert md files to html using the template of pandoc-goodies (https://github.com/tajmone/pandoc-goodies:)**
 
 https://hub.docker.com/r/toteabe/md-to-html
 
