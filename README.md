@@ -4,9 +4,15 @@ https://hub.docker.com/r/toteabe/md-to-html
 
 **Usage**
 
+build:
+
+./install-pandoc.sh
+docker build -t toteabe/md-to-html:3.0 .
+
+
 Run: 
 
-docker run --rm -v "$(pwd)/markdown:/markdown-data" toteabe/md-to-html:2.0
+docker run --rm -v "$(pwd)/markdown:/markdown-data" toteabe/md-to-html:3.0
 
 Output html: 
 
